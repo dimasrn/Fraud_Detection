@@ -80,12 +80,12 @@ def multi_cust(file):
  # Function to print out put which also converts numeric output from ML module to understandable STR 
 def pred_out(num):
     if num == 1:
-      sl.warning('This customer IS LIKELY TO DEFAULT next month..!')
+      sl.warning('This customer IS LIKELY TO *FRAUD* next month..!')
     else:
-      sl.success('This customer IS NOT LIKELY TO DEFAULT next month..!')
+      sl.success('This customer IS NOT LIKELY TO *FRAUD* next month..!')
 
 # Titel 
-sl.title('Credit Card Default Prediction')
+sl.title('Credit Card - Fraud Detection')
 
 # Selection 
 rad_b=sl.radio('Please select that you want give Single or Multiple customers data',options=['Single Data'])
