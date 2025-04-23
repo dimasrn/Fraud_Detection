@@ -88,7 +88,7 @@ def pred_out(num):
 sl.title('Credit Card - Fraud Detection')
 
 # Selection 
-rad_b=sl.radio('Please select that you want give Single or Multiple customers data',options=['Single Data'])
+rad_b=sl.radio('Please select',options=['Single Data'])
 
 # Body of the page using FORM
 def main():
